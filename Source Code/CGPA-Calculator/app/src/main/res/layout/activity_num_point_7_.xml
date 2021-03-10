@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NumPoint_7_Activity"
+    >
+
+
+    <ScrollView
+        android:layout_width="403dp"
+        android:layout_height="572dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="540dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/etcourse"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/backgroundbtn"
+                android:freezesText="true"
+                android:inputType="none"
+                android:text=" Course"
+                android:textColor="#161616"
+                android:textSize="22dp" />
+
+
+            <Button
+                android:id="@+id/etPoint"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/backgroundbtn"
+                android:ems="10"
+                android:freezesText="true"
+                android:inputType="none"
+                android:text="Point"
+                android:textColor="#161616"
+                android:textSize="22dp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/drawlineincoursepoint"
+                android:layout_height="10dp"
+
+                />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_marginTop="578dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/drawlineincoursepoint"
+                android:layout_height="10dp"
+
+                />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_marginTop="713dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/drawlineincoursepoint"
+                android:layout_height="10dp"
+
+                />
+
+
+            <Spinner
+                android:id="@+id/spnr_course_NP_7_1"
+                android:layout_width="250dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="90dp"
+
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+
+                />
+
+            <Spinner
+                android:id="@+id/spnr_point_NP_7_1"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="250dp"
+                android:background="@drawable/background"
+
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spnr_course_NP_7_2"
+                android:layout_width="250dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="162dp"
+
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+
+                />
+
+            <Spinner
+                android:id="@+id/spnr_point_NP_7_2"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="250dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spnr_course_NP_7_3"
+                android:layout_width="250dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="234dp"
+
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+
+                />
+
+            <Spinner
+                android:id="@+id/spnr_point_NP_7_3"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="234dp"
+                android:layout_marginLeft="250dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spnr_course_NP_7_4"
+                android:layout_width="250dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="306dp"
+
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+
+                />
+
+            <Spinner
+                android:id="@+id/spnr_point_NP_7_4"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="306dp"
+                android:layout_marginLeft="250dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spnr_course_NP_7_5"
+                android:layout_width="250dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="378dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+
+                />
+
+            <Spinner
+                android:id="@+id/spnr_point_NP_7_5"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="378dp"
+                android:layout_marginLeft="250dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spnr_course_NP_7_6"
+                android:layout_width="250dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="450dp"
+
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+
+                />
+
+            <Spinner
+                android:id="@+id/spnr_point_NP_7_6"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="250dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spnr_course_NP_7_7"
+                android:layout_width="250dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="522dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+
+                />
+
+            <Spinner
+                android:id="@+id/spnr_point_NP_7_7"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="522dp"
+                android:layout_marginLeft="250dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog" />
+
+
+            <Button
+                android:id="@+id/btncalculateCGPA_7"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="588dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/backgroundbtn"
+                android:text="Calculate CGPA" />
+
+            <Button
+                android:id="@+id/tv_Total_NP_7"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="643dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/backgroundbtn"
+                android:textSize="22dp" />
+            <Button
+                android:id="@+id/btncalculateCGPAcancel_7"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="723dp"
+                android:background="@drawable/backgroundbtn"
+                android:text="back"
+                android:textSize="22dp"
+
+
+                />
+
+            <Button
+                android:id="@+id/btnreset_7"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="723dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/backgroundbtn"
+                android:text="Reset"
+                android:textSize="22dp"
+
+
+                />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

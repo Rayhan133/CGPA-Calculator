@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="line">
+        <stroke
+
+            android:color="#158D1A"
+            android:width="3dp"
+
+            >
+
+        </stroke>
+
+        <gradient android:centerX="@integer/google_play_services_version"
+            android:centerY="@integer/google_play_services_version"
+            >
+
+        </gradient>
+        <solid android:color="#ffffff"></solid>
+
+    </shape>

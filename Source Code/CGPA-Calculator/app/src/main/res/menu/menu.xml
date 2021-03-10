@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/AboutMenu"
+        android:orderInCategory="50"
+        app:showAsAction="never"
+        android:title="About"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/HomePageMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Home"
+        >
+
+    </item>
+
+
+    <item
+        android:id="@+id/ProfileMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Profile"
+        >
+
+    </item>
+    <item
+        android:id="@+id/refreshMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Refresh"
+        >
+    </item>
+    <item
+        android:id="@+id/LogoutMenu"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        android:title="Logout"
+        >
+    </item>
+
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.annexbubt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".WelcomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Future_Course_Activity"
+            android:parentActivityName=".AcademicInformationActivity" />
+        <activity
+            android:name=".Present_Course_Activity"
+            android:parentActivityName=".AcademicInformationActivity" />
+        <activity
+            android:name=".Previous_Course_Activity"
+            android:parentActivityName=".AcademicInformationActivity" />
+        <activity
+            android:name=".NumPoint_10_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_9_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_8_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_7_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_6_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_5_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_4_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_3_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_2_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".NumPoint_1_Activity"
+            android:parentActivityName=".CGPACalculatorActivity" />
+        <activity
+            android:name=".RoutineActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".FeesAndWaiverActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".AcademicInformationActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".CGPACalculatorActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

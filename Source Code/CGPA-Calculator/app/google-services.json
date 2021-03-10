@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "481775479024",
+    "firebase_url": "https://annexbubt.firebaseio.com",
+    "project_id": "annexbubt",
+    "storage_bucket": "annexbubt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481775479024:android:88b4117ceb4992f4",
+        "android_client_info": {
+          "package_name": "com.example.annexbubt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481775479024-pvhtudh1t8hou7c3sch1717pvlm469g5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.annexbubt",
+            "certificate_hash": "071cacf55fd16d1a0cfe6eef086857584de29e44"
+          }
+        },
+        {
+          "client_id": "481775479024-7h311tpmm2l39kp04q93u0popf9148q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4uhZAwn0ox6UnH1ZKNyj6ODeNSTHrGC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481775479024-7h311tpmm2l39kp04q93u0popf9148q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
